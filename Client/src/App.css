@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  margin: 40px auto ;
+
+}
+
+.App h1{
+  color: black;
+}
+
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.inputtext{
+
+  padding:5px;
+  width: 85%;
+  border-radius: 7px;
+  border: 1px #eee;
+
+}
+
+.inputtext:focus,.addbutton:focus{
+  outline: none;
+}
+
+.addbutton{
+  color: aliceblue;
+  background-color: rgb(99, 184, 56);
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.item-content{
+  width:75%;
+}
+.button-u{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(221, 237, 232);
+  background-color: rgb(32, 35, 179);
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.button-d{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(221, 237, 232);
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 5px;
+}
