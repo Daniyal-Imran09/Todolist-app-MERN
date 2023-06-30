@@ -1,0 +1,27 @@
+POST http://localhost:5500/api/items
+Content-Type: application/json
+
+{
+    "item":"this is my last todolist app" 
+}
+
+###
+
+GET http://localhost:5500/api/items
+Content-Type: application/json
+
+
+###
+PUT http://localhost:5500/api/items/6492f40cec3f6f01c0828205
+Content-Type: application/json
+
+{
+    "item":"this is my updated todolist app" 
+}
+
+
+###
+
+DELETE  http://localhost:5500/api/items/64929cda2a78f9ea689afe49
+Content-Type: application/json
+
